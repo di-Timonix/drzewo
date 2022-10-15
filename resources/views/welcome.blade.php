@@ -28,18 +28,16 @@
 
 <body class="">
 
-    <div class="container">
+    <main class="container">
 
-        <div class="container shadow py-4">
+        <section class="container shadow py-4">
             <div class="text-center mx-auto">
                 <div class="small fw-light">Szukaj w grupie</div>
                 <div class="input-group">
                     <input class="form-control border-end-0 border" type="search" value="" placeholder="search" id="searching">
                 </div>
             </div>
-
-
-        </div>
+        </section>
 
 
         <div id="jstree">
@@ -67,7 +65,7 @@
             </ul>
         </div>
 
-        <div class="container shadow py-4">
+        <section class="container shadow py-4">
 
             <div class="container p-3 mb-4">
                 <div class="treeMessage"></div>
@@ -81,12 +79,12 @@
                 <div id="addNode" type="button" class="btn btn-warning">Dodaj Drzewo</div>
             </div>
 
-        </div>
+        </section>
 
         <script>
             window.addEventListener("DOMContentLoad", dzewo());
         </script>
-    </div>
+    </main>
 
 </body>
 
